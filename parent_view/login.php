@@ -48,7 +48,7 @@
                         <label for="name" class="col-sm-2 control-label">User_Name</label>
 
                         <div class="col-sm-12">
-                            <input type="text" class="form-control" placeholder="User Name" name="userName">
+                            <input type="text" class="form-control" placeholder="User Name" id="username" name="username">
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@
             <label for="name" class=" control-label">Password</label>
 
             <div class="form-group has-feedback">
-                <input type="password" class="form-control" placeholder="Password" name="password">
+                <input type="password" class="form-control" placeholder="Password" name="password" id="password">
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
             <div class="row">
@@ -69,12 +69,12 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-xs-4">
-                    <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                    <button type="submit" name="login" id="login" class="btn btn-primary btn-block btn-flat">Sign In</button>
                 </div>
                 <!-- /.col -->
             </div>
 
-            <input type="hidden" id="login" name="login">
+            <!--<input type="hidden" id="login" name="login">-->
         </form>
 
     </div>

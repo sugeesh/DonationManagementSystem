@@ -57,7 +57,7 @@
         <section class="content">
             <!-- Small boxes (Stat box) -->
             <div class="row">
-                <form class="form-horizontal" action="./login.php" method="POST">
+                <form class="form-horizontal" action="./index.php" method="POST">
 
                     <div class="form-group">
                         <label for="number" class="col-sm-2 control-label">Name</label>
@@ -108,7 +108,7 @@
                         <label for="address" class="col-sm-2 control-label">Password</label>
 
                         <div class="col-sm-6">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                         </div>
                     </div>
 
@@ -117,7 +117,7 @@
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-warning">Register Parent</button>
+                            <button type="submit" name="register_parent" id="register_parent" class="btn btn-warning">Register Parent </button>
                         </div>
                     </div>
 

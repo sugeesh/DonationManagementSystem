@@ -60,7 +60,8 @@
             <table class="table table-hover">
                 <tr>
                     <td class="active" style="text-align:center;">School</td>
-                    <td class="active" style="text-align:center;">Salary Status</td>
+                    <td class="active" style="text-align:center;">Child Name</td>
+                    <td class="active" style="text-align:center;">Parent Salary Status</td>
                     <td class="active" style="text-align:center;">View Full Detail</td>
                     <td class="active" style="text-align:center;">Donate</td>
                     <td class="active"></td>
@@ -69,6 +70,7 @@
                 <form name="myForm1" method="post" action="#" onsubmit="return confirmForm();">
                     <tr class="success">
                         <td class="active" style="text-align:center;">Mahinda College</td>
+                        <td class="active" style="text-align:center;">Archana</td>
                         <td class="active" style="text-align:center;">Rs.10000 For month</td>
                         <td class="active" style="text-align:center;"><a href="./application_detail.php">< View Full
                                 Detail ></a></td>
@@ -79,6 +81,7 @@
                 <form name="myForm2" method="post" action="#" onsubmit="return confirmForm();">
                     <tr class="success">
                         <td class="active" style="text-align:center;">Richmond College</td>
+                        <td class="active" style="text-align:center;">Sadeesh</td>
                         <td class="active" style="text-align:center;">Rs.250 For day</td>
                         <td class="active" style="text-align:center;"><a href="./application_detail.php">< View Full
                                 Detail ></a></td>
@@ -89,6 +92,7 @@
                 <form name="myForm3" method="post" action="#" onsubmit="return confirmForm();">
                     <tr class="success">
                         <td class="active" style="text-align:center;">Ananda College</td>
+                        <td class="active" style="text-align:center;">Dinumina</td>
                         <td class="active" style="text-align:center;">Rs.100 For day</td>
                         <td class="active" style="text-align:center;"><a href="./application_detail.php">< View Full
                                 Detail ></a></td>

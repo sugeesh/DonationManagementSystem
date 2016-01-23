@@ -56,7 +56,7 @@
         <section class="content">
             <!-- Small boxes (Stat box) -->
             <div class="row">
-                <form class="form-horizontal" action="donor_main.php" method="POST">
+                <form class="form-horizontal" action="index.php" method="POST">
 
                     <div class="form-group">
                         <label for="number" class="col-sm-2 control-label">Name</label>
@@ -98,7 +98,7 @@
                         <label for="address" class="col-sm-2 control-label">User Name</label>
 
                         <div class="col-sm-6">
-                            <input type="text" class="form-control" id="userName" name="userName"
+                            <input type="text" class="form-control" id="username" name="username"
                                    placeholder="userName">
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                         <label for="address" class="col-sm-2 control-label">Password</label>
 
                         <div class="col-sm-6">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                         </div>
                     </div>
 
@@ -116,7 +116,7 @@
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-warning">Register Donor</button>
+                            <button type="submit" id="register_donor" name="register_donor" class="btn btn-warning">Register Donor</button>
                         </div>
                     </div>
 

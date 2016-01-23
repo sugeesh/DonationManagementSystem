@@ -60,24 +60,28 @@
             <table class="table table-hover">
                 <tr>
                     <td class="active" style="text-align:center;">School</td>
+                    <td class="active" style="text-align:center;">Child Name</td>
                     <td class="active" style="text-align:center;">Donated Date</td>
                     <td class="active" style="text-align:center;">Feedback</td>
                 </tr>
 
                 <tr class="danger">
                     <td class="active" style="text-align:center;">Mahinda College</td>
+                    <td class="active" style="text-align:center;">Archana Udaranga</td>
                     <td class="active" style="text-align:center;">2014-03-02</td>
                     <td class="active" style="text-align:center;">No feedback yet</td>
                 </tr>
 
                 <tr class="danger">
                     <td class="active" style="text-align:center;">Ananda College</td>
+                    <td class="active" style="text-align:center;">Sadeesh</td>
                     <td class="active" style="text-align:center;">2014-04-02</td>
                     <td class="active" style="text-align:center;">No feedback yet</td>
                 </tr>
 
                 <tr class="success">
                     <td class="active" style="text-align:center;">Ananda College</td>
+                    <td class="active" style="text-align:center;">Lahiru</td>
                     <td class="active" style="text-align:center;">2015-03-06</td>
                     <td class="active" style="text-align:center;"><a href="./application_detail.php">Read feedback</a></td>
                 </tr>
